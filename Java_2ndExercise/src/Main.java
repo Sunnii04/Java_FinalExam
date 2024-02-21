@@ -91,31 +91,6 @@ class Sale {
 
 public class Main {
     public static void main(String[] args) {
-        Customer customer1 = new Customer("John", "Premium");
-        Customer customer2 = new Customer("Dara", "Gold");
-        Customer customer3 = new Customer("Kimsun", "Silver");
-
-        Sale sale1 = new Sale(customer1, "2022-02-01");
-        sale1.setServiceExpense(100.00);
-        sale1.setProductExpense(300.00);
-
-        Sale sale2 = new Sale(customer2, "2023-04-02");
-        sale2.setServiceExpense(500.00);
-        sale2.setProductExpense(400.00);
-
-        Sale sale3 = new Sale(customer3, "2023-04-03");
-        sale3.setServiceExpense(600.00);
-        sale3.setProductExpense(700.00);
-
-        System.out.println("Sale Info for Premium Customer:");
-        sale1.displayInfo();
-
-        System.out.println("===============================================");
-        System.out.println("\nSale Info for Gold Customer:");
-        sale2.displayInfo();
-
-        System.out.println("===============================================");
-        System.out.println("\nSale Info for Silver Customer:");
-        sale3.displayInfo();
+       
     }
 }
